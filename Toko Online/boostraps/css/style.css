@@ -1,0 +1,41 @@
+.bordered {
+    border: solid;
+}
+.contoh {
+    height: 50px;
+    background-color: aqua;
+}
+.turun {
+    margin-bottom: 10px;
+}
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/121.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: relative;
+}
+.banner-content h1{
+    font-size: 60px;
+    color: aqua;
+    text-shadow: 1px 1px 5px red;
+}
+.banner-content p{
+    color: white;
+    text-align: center;
+}
+.carousel-contain {
+    background-color: #212529 ;
+    color: white;
+    text-shadow: 3px 3px 5px red;
+}
+.gambar {
+    border-radius: 20px;
+}
